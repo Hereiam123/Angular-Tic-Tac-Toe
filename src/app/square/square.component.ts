@@ -5,7 +5,7 @@ import { Component, OnInit, Input } from "@angular/core";
   template: `
     <button>{{ value }}</button>
   `,
-  styles: []
+  styles: ["button{height:100%; width:100%;}"]
 })
 export class SquareComponent {
   @Input() value: "X" | "O";
